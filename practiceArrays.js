@@ -27,6 +27,18 @@ temperatures[0] = temperatures[0] + 1
 return temperatures
 }
 
+function getCount(items) {
+return items.length
+}
+
+function getMessage(items) {
+return `You have ${items.length} items`
+}
+
+function getLastTemperatureMessage(temperatures) {
+return `The last temperature is at position ${temperatures.length-1}`
+}
+
 function getLastGrade(grades) {
 return grades[grades.length - 1]
 }

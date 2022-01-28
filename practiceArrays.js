@@ -21,3 +21,12 @@ return `The shop is located at ${coordinates[0]}, ${coordinates[1]}`
 function describeShopLocation(shop, coordinates) {
 return `The ${shop} is located at ${coordinates[0]}, ${coordinates[1]}`
 }
+
+function incrementFirstTemperature(temperatures) {
+temperatures[0] = temperatures[0] + 1 
+return temperatures
+}
+
+function getLastGrade(grades) {
+return grades[grades.length - 1]
+}

@@ -52,3 +52,19 @@ function addTemperature(temperatures) {
 temperatures.push(-6)
 return temperatures
 }
+
+function isTestTooEasy(grades) {
+return grades.includes(20)
+}
+
+function convertToString(grades) {
+return grades.join(";")
+}
+
+function convertToString(grades) {
+return grades.join(" & ")
+}
+
+function exportCSV(grades) {
+return grades. join(", ")
+}

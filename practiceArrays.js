@@ -42,3 +42,13 @@ return `The last temperature is at position ${temperatures.length-1}`
 function getLastGrade(grades) {
 return grades[grades.length - 1]
 }
+
+function addGrade(grades) {
+grades.push(18)
+return grades
+}
+
+function addTemperature(temperatures) {
+temperatures.push(-6)
+return temperatures
+}

@@ -68,3 +68,16 @@ return grades.join(" & ")
 function exportCSV(grades) {
 return grades. join(", ")
 }
+
+let numbers = [05, 15, 25, 35, 45]
+
+numbers.forEach(function(number) {
+console.log(number)
+}
+
+let temperatures = [-3, 7, 11, 14, 23]
+
+temperatures.forEach(function(temperature) {
+console.log(temperature)
+}
+

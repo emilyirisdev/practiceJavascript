@@ -81,3 +81,8 @@ temperatures.forEach(function(temperature) {
 console.log(temperature)
 })
 
+let grades = [30, 26, 17, 23]
+
+grades.forEach(function(grade) {
+    console.log(grade)
+})

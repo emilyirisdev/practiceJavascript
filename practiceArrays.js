@@ -86,3 +86,49 @@ let grades = [30, 26, 17, 23]
 grades.forEach(function(grade) {
     console.log(grade)
 })
+
+let temperatures = [-27, -19, -8, 3, 6]
+
+temperatures.forEach(function (temperature) {
+    console.log(temperature)
+})
+
+let numbers = [7, 28, 14, 21]
+
+numbers.forEach(function(number) {
+    console.log(number)
+})
+
+let ids = [847, 935, 296, 721, 655, 432]
+
+ids.forEach(function(id) {
+    console.log(id)
+})
+
+let grades = [20, 36, 28, 30]
+
+let sum = 0
+grades.forEach(function(grade) {
+    console.log(grade)
+    sum = sum + grade
+    return sum
+})
+
+let numbers = [9, 27, 18, 36, 49]
+
+let sum = 0
+numbers.forEach(function(number) {
+    console.log(number)
+    sum = sum + number
+    return sum
+})
+
+let temperatures = [-3, 7, 21, 14, 23]
+
+let total = 0
+
+temperatures.forEach(function(temperature) {
+    total = total + temperature
+})
+console.log(total)
+

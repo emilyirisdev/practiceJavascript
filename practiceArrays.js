@@ -132,3 +132,47 @@ temperatures.forEach(function(temperature) {
 })
 console.log(total)
 
+function calculateTotal(numbers) {
+let sum = 0
+numbers.forEach(function(number) {
+    sum = sum + number
+})
+return sum
+}
+
+export function getSumOfGrades(grades) {
+let sum = 0
+grades.forEach(function(grade) {
+    sum += grade
+})
+return sum
+}
+
+export function getAverageGrade(grades) {
+let sum = 0
+grades.forEach(function(grade) {
+    sum += grade
+})
+return sum / grades.length
+}
+
+function sumGradesAbove10(grades) {
+let sum = 0
+grades.forEach(function(grade) {
+    if (grade >= 10) {
+        sum = sum + grade
+    }
+})
+return sum
+}
+
+function sumNonFreezingTemperatures(temperatures) {
+let sum = 0
+temperatures.forEach(function(temperature) {
+    if(temperature > 0) {
+        sum += temperature
+    }
+})
+return sum
+}
+

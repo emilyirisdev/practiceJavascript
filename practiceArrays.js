@@ -176,3 +176,32 @@ temperatures.forEach(function(temperature) {
 return sum
 }
 
+function tripleGrades(grades) {
+return grades.map(function(grade) {
+    return grade * 3
+})
+}
+console.log(tripleGrades)
+
+function doubleNumbers(numbers) {
+return numbers.map(function(grade){
+    return grade * 2
+})
+}
+
+function raiseTemperatures(temperatures) {
+return temperatures.map(function(temperature) {
+    return temperature + 5
+})
+}
+
+let grades = [10, 5, 15, 20]
+let sum = grades.reduce(function(total, current) {
+    return total + current
+}, 0)
+
+function sumNumbers(numbers) {
+return numbers.reduce(function(total, current) {
+    return total + current
+}, 0)
+}

@@ -1,4 +1,4 @@
-export function getMessage(value) {
+function getMessage(value) {
     console.log(value)
 if (value === 0) {
     return "You don't have any items in your shopping list";

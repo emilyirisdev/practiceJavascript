@@ -6,7 +6,7 @@ function triple(x) {
     return x * 3
 }
 
-export function run(operation, x) {
+function run(operation, x) {
     console.log(operation)
     console.log(x)
   

@@ -1,4 +1,4 @@
-export function isPromoCodeValid(code) {
+function isPromoCodeValid(code) {
     console.log(code)
     
 if (code.trim().length < 5) {

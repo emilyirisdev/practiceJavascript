@@ -206,6 +206,38 @@ return numbers.reduce(function(total, current) {
 }, 0)
 }
 
+function addGrade(grades, grade) {
+grades.push(grade) 
+return grades
+}
+
+function getNumberOfGrades(grades) {
+return grades.length
+}
+
+function getFirstGrade(grades) {
+return grades[0]
+}
+
+function getLastGrade(grades) {
+return grades[grades.length - 1]
+}
+
+function getSumOfGrades(grades) {
+return grades.reduce(function(total, current) {
+    return total + current
+}, 0);
+}
+
+function getAverageGrade(grades) {
+return getSumOfGrades(grades) / grades.length
+}
+
+function getRaisedGrades(grades) {
+return grades.map(function(grade) {
+        return grade + 2
+    })
+}
 function multiplyNumbers(numbers) {
 return numbers.reduce(function(total, current) {
     return total * current

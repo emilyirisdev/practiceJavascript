@@ -1,14 +1,10 @@
-let grades = [10, 5, 13]
-let firstGrade = grades[0]
-console.log(firstGrade)
+let miles = [2, 4, 3]
+let firstMile = miles[0]
+console.log(firstMile)
 
-let grades = [10, 5, 13]
-let secondGrade = grades[1]
-console.log(secondGrade)
-
-let temperatures = [-5, 12, 15, 18, 13]
-let value = temperatures[2]
-console.log(value)
+let miles = [2, 4, 3]
+let lasttMile = miles[miles.length - 1]
+console.log(lastMile)
 
 function getFullName(names) {
 return `${names[0]} ${names[1]}`
